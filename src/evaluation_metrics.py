@@ -4,8 +4,6 @@ import torch
 from transformers import BertTokenizer, BertForMaskedLM
 from scipy import stats
 from MLM import MaskedModeling
-import scipy
-print(scipy.__version__)
 
 
 class EvaluationMetrics:
